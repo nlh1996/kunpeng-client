@@ -1,0 +1,1 @@
+CGO_ENABLED=0 GOOS=linux GOARCH=arm64 go build -i -tags netgo -v -ldflags="-s -w" -o client
